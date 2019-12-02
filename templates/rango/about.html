@@ -1,0 +1,16 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+    About Tango with Django
+{% endblock %}
+
+{% block body_block %}
+    <h1>About Page</h1>
+    {% if user.is_authenticated %}
+        <p>User: <strong>{{ user.username }}</strong></p>
+        <p>Email: <strong>{{ user.email }}</strong></p>
+        <p>Visits: <strong>{{ visits }}</strong></p>
+        <p><a href="{% url 'auth_password_change' %}">Change Password</a></p>
+    {% endif %}
+{% endblock  %}
