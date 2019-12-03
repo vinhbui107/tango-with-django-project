@@ -4,7 +4,7 @@
 Project and exercises I've worked on in the "Tango with django 2 book".
 
 ## Installing
-In the project directory, you can run:
+In the project directory, follow thsteps:
 
 Run virtual environment
 ```
