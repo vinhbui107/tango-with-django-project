@@ -34,7 +34,11 @@
 
 		{% if user.is_authenticated %}
 			<div>
-				<form class="form-inline" id="user-form" method="post"
+				{% comment %}
+					API Bing searh fails because i dont find the key. MS changes your
+					website so i cant register a API Bing search like Book recommend.
+				{% endcomment %}
+				<form class="form-inline" id="user-form" method=""
 					  action="{% url 'rango:show_category' category.slug %}">
 					{% csrf_token %}
 
