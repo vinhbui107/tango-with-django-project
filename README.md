@@ -8,7 +8,7 @@ In the project directory, follow these steps:
 
 Clone Project
 ```
-$ git clone https://github.com/vinhbui107/Tango-With-Django-Project
+$ git clone https://github.com/vinhbui107/Tango-With-Django-Project.git
 ```
 
 Move to Dir 
