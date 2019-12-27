@@ -6,6 +6,16 @@ Project and exercises I've worked on in the "Tango with django 2 book".
 ## Installing
 In the project directory, follow these steps:
 
+Clone Project
+```
+$ git clone https://github.com/vinhbui107/Tango-With-Django-Project
+```
+
+Move to Dir 
+```
+$ cd Tango-With-Django-Project
+```
+
 Run virtual environment
 ```
 $ source venv/bin/activate
